@@ -7,7 +7,7 @@ public class DemoServiceImpl implements DemoService {
 
     // 实现DemoService接口
     public String sayHello(String name) {
-        return "hello," + name;
+        return "hello,world:" + name;
     }
 
 }
