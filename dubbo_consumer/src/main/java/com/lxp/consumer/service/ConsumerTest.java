@@ -9,6 +9,7 @@ public class ConsumerTest {
 
 
         public static void main(String[] args) {
+            // 测试一下
             System.out.println("测试开始！");
             ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[] { "classpath:springmvc.xml" });
 
